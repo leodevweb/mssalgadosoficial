@@ -1,0 +1,23 @@
+.scrollspySite{
+	position: relative;
+	overflow: auto;
+	height: 345px;
+	text-align: center;
+	/*background-color: rgba(230, 249, 255,.3);*/
+
+}
+.container{
+
+}
+.inner{
+	overflow: hidden;
+
+}
+
+.inner img{
+	transition: all 1.6s ease;
+}
+
+.inner:hover img{
+	transform: scale(1.5);
+}
