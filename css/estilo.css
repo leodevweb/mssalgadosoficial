@@ -15,9 +15,18 @@
 }
 
 .inner img{
-	transition: all 1.6s ease;
+	transition: all 0.8s ease;
 }
 
 .inner:hover img{
-	transform: scale(1.5);
+	transform: scale(0.9);
+}
+
+.diag1 img {
+	transform: rotate(350deg);
+	box-shadow: 2px 3px #dddddd;
+}
+.diag2 img {
+	transform: rotate(10deg);
+	box-shadow: 2px 3px #dddddd;
 }
